@@ -1,0 +1,105 @@
+.mains{
+    width: 100%;
+    /* background-color: gray; */
+    height: 87vh;
+}
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: blue;
+    /* background-image: linear-gradient(blue,green,yellow); */
+    text-shadow: 4px 4px 4px blue;
+}
+
+.text{
+    width: 100%;
+    /* background-color: gray; */
+    text-align: center;
+}
+.text input{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 2px solid blue;
+    text-transform: capitalize;
+}
+.list{
+    width: 100%;
+    /* background-color: gray; */
+}
+.list ul{
+    list-style-type: none;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bolder;
+    border-bottom: 2px solid blue;
+    text-transform: capitalize;
+}
+.new{
+    color: red;
+    text-shadow: 4px 4px 4px black;
+    font-size: 60px;
+    padding-left: 50px;
+}
+.but{
+    width: 100%;
+    /* background-color: gray; */
+}
+.but button{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to left, red,blue);
+    font-size: 30px;
+    color: wheat;
+    text-shadow: 6px 5px 5px black;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 0;
+}
+.ham{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 30px;
+    animation: kk 0.7s infinite;
+    /* color: white; */
+}
+@keyframes kk{
+    0%{color: red}
+    25%{color: yellow}
+    50%{color: green}
+    100%{color: orange}
+}
+.j{
+    text-decoration: none;
+    animation: jjj 1s infinite;
+    font-weight: bolder;
+}
+.bt{
+    width:200px;
+    height: 40px;
+    margin-top: 20px;
+    background-image: linear-gradient(to left, red,blue);
+    font-size: 20px;
+    border: 0;
+    color: black;
+    /* margin-left: 83%; */
+    
+}
+@keyframes jjj{
+    0%{color:blue}
+    25%{color:red}
+    50%{color:white}
+    100%{color:yellow}
+}
+.fle{
+    display: flex;
+    justify-content: space-between;
+}

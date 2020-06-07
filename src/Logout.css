@@ -1,0 +1,43 @@
+/* .s h1{
+    color: red;
+    width: 100%;
+    text-align: center;
+} */
+.s{
+    width: 100%;
+    text-align: center;
+    margin: 100px;
+}
+.s h1{
+    font-size: 80px;
+    animation: gg 0.7s infinite;
+    margin-bottom: 100px;
+}
+@keyframes gg{
+    0%{color: blue}
+    25%{color: yellow}
+    50%{color: pink}
+    100%{color: red}
+}
+.t{
+    background-color: red;
+    height: 60px;
+    width: 200px;
+    color: black;
+    animation: aa 1s infinite;
+}
+.u{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+   
+    
+}
+@keyframes aa{
+   0% {background-color: lightblue}
+   25% {background-color: gray}
+   50% {background-color: green}
+   100% {background-color: palevioletred}
+}

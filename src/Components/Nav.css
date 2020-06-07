@@ -1,0 +1,39 @@
+.mj{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    /* border-bottom: 2px solid blue; */
+    text-transform: uppercase;
+    /* background-color: rgb(37, 35, 35); */
+    border-bottom: 1px blue solid;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 70px;
+    line-height: 80px;
+    margin-left: 60px;
+    text-decoration: none; 
+}
+.menu ul li:hover{
+    border-bottom: 2px solid rgb(88, 9, 9);
+    transition: all;
+    transition-duration: 0.7s;
+    
+}
+.line{
+    text-decoration: none;
+    /* color: white; */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 80px;
+    height: 75px;
+}
+.logo{
+    line-height: 80px;
+    margin-right: 100px;
+}

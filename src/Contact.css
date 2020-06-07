@@ -1,0 +1,39 @@
+.ja {
+    width: 100%;
+    text-align: center;
+    color: blue;
+}
+.ja h1{
+    margin-top: 20px;
+    font-size: 80px;
+    color: blue;
+    text-shadow: 4px 4px 6px black;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.ja p {
+    font-size: 20px;
+    color: blue;
+    text-transform: uppercase;
+}
+.kk input{
+    width: 900px;
+    height: 70px;
+    font-size: 35px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.kk textarea{
+    width: 900px;
+    margin-left: 130px; 
+    margin-top: 20px;
+    height: 150px;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.btu{
+    color: white;
+    background-color: blue;
+    text-shadow: 4px 4px 4px black;
+}

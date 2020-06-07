@@ -1,0 +1,88 @@
+.heading1{
+    width: 100%;
+    /* background-color: gray; */
+    text-align: center;
+    font-size: 45px;
+    margin-top: 70px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    animation: colorchange 0.8s infinite
+}
+@keyframes colorchange {
+    0%{color:orange;}
+    25%{color: green;}
+    50% {color: red;}
+    100%{color: purple;}
+}
+.center {
+    position:  absolute;
+    top : 300px;
+    left: 320px;
+    width: 50%;
+    height:300px;
+}
+
+input {
+     position: relative;
+     display: block;
+     margin : 0 auto;
+     border: 0;
+     border-bottom: 3px blue solid;
+
+}
+.text1{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+    padding-left: 30px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.text1:focus, input:focus{
+    outline: none;
+}
+.password{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.password:focus, input:focus{
+    outline: none;
+}
+.sub{
+    width: 50%;
+    border: none;
+    height: 40px;
+    background-image: linear-gradient(to left,yellowgreen,blue);
+    font-size: 20px;
+    animation: new 1s infinite;
+    border-radius: 10px;
+}
+@keyframes new{
+    0%{color: blue;}
+    25%{color: red;}
+    50%{color: white;}
+    100%{color: yellow;}
+}
+ .head{
+    width: 100%;
+    /* background-color: gray;  */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    animation: hammad 0.7s infinite;
+    text-transform: uppercase;
+} 
+ @keyframes hammad{
+    0%{color: red}
+    25%{color: blue}
+    75%{color: purple}
+    100%{color: orange}
+} 
